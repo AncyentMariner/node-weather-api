@@ -24,7 +24,7 @@ geocode.getGeocode(argv.a, (err, results) => {
       if (err) {
         console.log(err, 'this is an error');
       } else if (weatherResults) {
-        console.log(`It's currently ${weatherResults.temp} degrees. It feels like ${weatherResults.apparentTemp}`);
+        console.log(`It's currently ${temp} degrees. It feels like ${apparentTemp}`);
       }
     });
   }
